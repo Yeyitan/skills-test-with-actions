@@ -60,13 +60,13 @@ def test_get_nth_fibonacci_one():
 
 def test_get_nth_fibonacci_ten():
      """Test with n=10."""
-     Arrange
+     #Arrange
      n = 10
 
-     Act
+     #Act
      result = get_nth_fibonacci(n)
 
-     Assert
+     #Assert
      assert result == 55
 
 def test_area_of_circule_negative_radius():
